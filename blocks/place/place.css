@@ -1,40 +1,40 @@
 .place {
-    font-family: "Inter", "Arial", sans-serif;
-    color: white;
-    display: grid;
-    grid-template-columns: minmax(460px, 1fr) minmax(min-content, max-content);
-    grid-template-rows: minmax(min-content, max-content) minmax(460px, 1fr);
-    max-width: calc(100% - 148px * 2);
-    row-gap: 48px;
-    column-gap: 38px;
-    margin: 80px auto 0;
+  font-family: "Inter", "Arial", sans-serif;
+  color: white;
+  display: grid;
+  grid-template-columns: minmax(460px, 1fr) minmax(min-content, max-content);
+  grid-template-rows: minmax(min-content, max-content) minmax(460px, 1fr);
+  max-width: calc(100% - 148px * 2);
+  row-gap: 48px;
+  column-gap: 38px;
+  margin: 80px auto 0;
 }
 
 @media screen and (max-width: 620px) {
-.place {
+  .place {
     display: flex;
     flex-direction: column;
     max-width: 100%;
     margin: 49px auto 0;
     justify-items: center;
-}
+  }
 }
 
 @media screen and (min-width: 621px) and (max-width: 960px) {
-    .place {
-        grid-template-columns: minmax(340px, 1fr) minmax(min-content, max-content);
-        grid-template-rows: minmax(min-content, max-content) minmax(340px, 1fr);
-        max-width: calc(100% - 24px * 2);
-        margin: 73px auto 0;
-        column-gap: 28px;
-    }
+  .place {
+    grid-template-columns: minmax(340px, 1fr) minmax(min-content, max-content);
+    grid-template-rows: minmax(min-content, max-content) minmax(340px, 1fr);
+    max-width: calc(100% - 24px * 2);
+    margin: 73px auto 0;
+    column-gap: 28px;
+  }
 }
 
 @media screen and (min-width: 961px) and (max-width: 1160px) {
-    .place {
-        grid-template-columns: minmax(440px, 1fr) minmax(min-content, max-content);
-        grid-template-rows: minmax(min-content, max-content) minmax(440px, 1fr);
-        max-width: calc(100% - 48px * 2);
-        column-gap: 32px;
-    }
+  .place {
+    grid-template-columns: minmax(440px, 1fr) minmax(min-content, max-content);
+    grid-template-rows: minmax(min-content, max-content) minmax(440px, 1fr);
+    max-width: calc(100% - 48px * 2);
+    column-gap: 32px;
+  }
 }

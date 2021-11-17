@@ -1,28 +1,28 @@
 .header__logo {
-    width: 176px;
-    height: 52px;
-    margin: 28px 0 0 48px;
-    text-decoration: none;
-    background-image: url(../../../images/header-logo.svg);
-    background-size: cover;
-    opacity: 1;
-    transition: .3s;
+  width: 176px;
+  height: 52px;
+  margin: 28px 0 0 48px;
+  text-decoration: none;
+  background-image: url(../../../images/header-logo.svg);
+  background-size: cover;
+  opacity: 1;
+  transition: 0.3s;
 }
 
 .header__logo:hover {
-    opacity: .8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 520px) {
-.header__logo {
+  .header__logo {
     margin: 16px 0 0 16px;
     width: 142px;
     height: 42px;
-}
+  }
 }
 
 @media screen and (min-width: 521px) and (max-width: 840px) {
-.header__logo {
+  .header__logo {
     margin: 28px 0 0 24px;
-}
+  }
 }
