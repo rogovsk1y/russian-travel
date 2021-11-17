@@ -1,0 +1,44 @@
+.cover {
+    font-family: "Inter", "Arial", sans-serif;
+    position: relative;
+    max-width: calc(100% - 48px * 2);
+    margin: 92px auto 0;
+    background-image: url(../../images/cover-trains.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+    .cover {
+        max-width: 100%;
+        margin: 66px auto 0;
+        min-height: 200px;
+    }
+}
+
+@media screen and (min-width: 521px) and (max-width: 840px) {
+    .cover {
+        max-width: 100%;
+        margin: 90px auto 0;
+        min-height: 480px;
+    }
+}
+
+@media screen and (min-width: 841px) and (max-width: 1160px) {
+    .cover {
+        max-width: 100%;
+        min-height: 640px;
+    }
+}
+
+@media screen and (min-width: 1161px) {
+    .cover {
+        max-width: 100%;
+        min-height: 740px;
+    }
+}
