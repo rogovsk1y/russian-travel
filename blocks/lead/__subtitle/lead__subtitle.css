@@ -17,19 +17,3 @@
     line-height: 1.25;
   }
 }
-
-@media screen and (min-width: 521px) and (max-width: 840px) {
-  .lead__subtitle {
-    width: 345px;
-    font-size: 20px;
-    line-height: 1.04;
-  }
-}
-
-@media screen and (min-width: 841px) and (max-width: 1160px) {
-  .lead__subtitle {
-    width: 640px;
-    font-size: 30px;
-    line-height: 36px;
-  }
-}

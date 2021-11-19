@@ -1,5 +1,6 @@
 .lead {
-  width: 984px;
+  max-width: 984px;
+  padding: 0;
   font-family: "Inter", "Arial", sans-serif;
   color: #fff;
   display: flex;
@@ -26,7 +27,7 @@
 
 @media screen and (min-width: 841px) and (max-width: 1160px) {
   .lead {
-    padding: 48px 0 0;
+    margin: 48px auto 0;
     max-width: calc(100% - 48px * 2);
   }
 }
