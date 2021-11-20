@@ -7,27 +7,24 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 1160px) {
   .photo-grid {
-    max-width: 100%;
-    margin: 64px 16px 0px;
-    row-gap: 12px;
-    column-gap: 0;
+    margin: 88px 48px 0px;
+    gap: 14px;
   }
 }
 
-@media screen and (min-width: 521px) and (max-width: 840px) {
+@media screen and (max-width: 840px) {
   .photo-grid {
-    max-width: 100%;
     margin: 88px 24px 0px;
     gap: 16px;
   }
 }
 
-@media screen and (min-width: 841px) and (max-width: 1160px) {
+@media screen and (max-width: 520px) {
   .photo-grid {
-    max-width: 100%;
-    margin: 88px 48px 0px;
-    gap: 14px;
+    margin: 64px 16px 0px;
+    row-gap: 12px;
+    column-gap: 0;
   }
 }

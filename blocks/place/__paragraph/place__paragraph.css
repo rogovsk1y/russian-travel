@@ -1,5 +1,5 @@
 .place__paragraph {
-  margin: 0;
+  margin: 26px 0 0;
   padding: 0;
   font-style: normal;
   font-weight: normal;
@@ -7,8 +7,14 @@
   line-height: 163%;
 }
 
-.place__paragraph:nth-of-type(1n+1) {
-  margin: 0 0 26px;
+.place__paragraph:first-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 840px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -16,13 +22,6 @@
     grid-row: 3;
     grid-column: 1;
     width: calc(100vw - 16px * 2);
-    font-size: 16px;
     padding: 0 16px;
-  }
-}
-
-@media screen and (min-width: 621px) and (max-width: 840px) {
-  .place__paragraph {
-    font-size: 16px;
   }
 }

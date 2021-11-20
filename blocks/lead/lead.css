@@ -12,22 +12,21 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 520px) {
-  .lead {
-    margin: 42px auto 0;
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 521px) and (max-width: 840px) {
-  .lead {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 841px) and (max-width: 1160px) {
+@media screen and (max-width: 1160px) {
   .lead {
     margin: 48px auto 0;
     max-width: calc(100% - 48px * 2);
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .lead {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .lead {
+    margin: 42px auto 0;
   }
 }
